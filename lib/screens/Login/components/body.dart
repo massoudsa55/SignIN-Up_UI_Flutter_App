@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:login_signup_ui_app/components/background.dart';
 import 'package:login_signup_ui_app/components/rounded_button.dart';
-import 'package:login_signup_ui_app/constants.dart';
+import 'package:login_signup_ui_app/screens/Signup/signup_screen.dart';
 
+import 'already_have_an_acount_check.dart';
 import 'rounded_input_text_field.dart';
 import 'rounded_password_field.dart';
 
@@ -17,6 +18,7 @@ class Body extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Background(
       child: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -32,6 +34,7 @@ class Body extends StatelessWidget {
               "assets/icons/login.svg",
               height: size.height * 0.35,
             ),
+            SizedBox(height: size.height * 0.03),
             RoundedInputTextField(
               hintText: "Your email",
               onChanged: (value) {},
@@ -41,6 +44,15 @@ class Body extends StatelessWidget {
             RoundedButton(
               text: "LOGIN",
               press: () {},
+            ),
+            SizedBox(height: size.height * 0.03),
+            AlreadyHaveAnAcountCheck(
+              press: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SignUpScreen(),
+                ),
+              ),
             ),
           ],
         ),
