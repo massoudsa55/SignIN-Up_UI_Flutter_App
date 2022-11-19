@@ -1,8 +1,37 @@
-# login_signup_ui_app
+# Modern Sign in/Up UI App
 
-A new Flutter project.
+Sign in/up UI App developed using Flutter, modern UI.
 
-## Getting Started
+Global presentation
+***
+![Modern SignIN-UP UI App](https://user-images.githubusercontent.com/33179371/202857561-d190f4a1-25f3-4171-b099-59ba3fcb5dcb.png)
+
+***
+
+Screenshots
+
+***
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/33179371/202857579-48632b3a-a3ef-4a83-9163-cfe8c0672555.jpg" width=260 align="middle" />
+  <img src="https://user-images.githubusercontent.com/33179371/202857584-9484acce-7606-4935-ab1d-0c9bad3b2f4f.jpg" width=260 align="middle" hspace="20" vspace="20"/> 
+  <img src="https://user-images.githubusercontent.com/33179371/202857587-f107345d-6f7e-42f4-a1cd-e3208c96d329.jpg" width=260 align="middle" />
+</p>
+
+***
+
+
+***
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/33179371/202268015-c7c4bc54-2185-4ab6-a852-074fc4ea057e.jpg" width=390 align="middle" hspace="20" vspace="20"/>
+  <img src="https://user-images.githubusercontent.com/33179371/202268052-71d17480-7a6d-4396-8be6-df6979f17394.jpg" width=390 align="middle" />
+</p>
+
+***
+---
+
+## For Getting Started with flutter 
 
 This project is a starting point for a Flutter application.
 
